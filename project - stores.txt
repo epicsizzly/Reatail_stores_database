@@ -1,0 +1,49 @@
+
+Retail Store Database Management System
+Project Description
+A retail store chain operates multiple branches across different cities. The company requires an efficient database system to manage store operations, employees, customers, suppliers, and sales transactions.
+
+The database should:
+✅ Maintain a record of all stores and their locations.
+✅ Store details of employees, their roles, salaries, and assigned stores.
+✅ Track customers, their contact details, and purchase history.
+✅ Record sales transactions, linking employees to customers.
+✅ Manage suppliers, tracking the type of products they provide to specific stores.
+
+Entities & Relationships
+Stores:
+Each store has a unique store ID, name, and location.
+
+Every store is managed by an employee (manager).
+
+Employees work in a specific store.
+
+Employees:
+Each employee has a unique ID, name, birthdate, salary, and job role.
+
+Employees are assigned to one store at a time.
+
+An employee can be promoted to store manager.
+
+Customers:
+Customers have a unique ID, name, and contact details.
+
+Customers can make multiple purchases across different stores.
+
+Sales Transactions:
+Each sale has a unique ID, date, employee ID, customer ID, and total amount.
+
+Employees are responsible for handling sales.
+
+Suppliers:
+Each supplier has a unique ID, name, supply type, and the store they supply.
+
+A supplier is associated with a specific store rather than individual products.
+
+
+
+🎯 Goal Option A: “Identify the top-performing stores, employees, and customer segments to drive better sales strategies.”
+🎯 Goal Option B: “Analyze sales performance and supplier contributions across regions to improve operations.”
+🎯 Goal Option C: “Understand customer behavior and employee efficiency to boost revenue.”
+
+
